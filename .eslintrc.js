@@ -18,6 +18,7 @@ module.exports = {
         "Products",
         "default"
       ]
-    }]
+    }],
+    "vue/attribute-hyphenation": ["error", "never", {}]
   },
 }

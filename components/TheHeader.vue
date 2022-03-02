@@ -1,6 +1,6 @@
 <template>
   <div>
-    <b-navbar toggleable="lg" type="dark" variant="dark">
+    <b-navbar toggleable="lg" type="light" variant="dark">
       <NuxtLink id="nuxt-navbar-brand-link" to="/"
         ><nuxt-img class="logo" src="/brandLogo.png"></nuxt-img>
       </NuxtLink>

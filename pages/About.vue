@@ -7,14 +7,13 @@
 <script>
 import conf from '../conf'
 export default {
-  transition: 'about',
-
-  head() {
-    return { title: this.content.title }
-  },
   async asyncData({ $content }) {
     const content = await $content(conf.ABOUTCONTENT).fetch()
     return { content }
+  },
+  transition: 'about',
+  head() {
+    return { title: this.content.title }
   },
 }
 </script>

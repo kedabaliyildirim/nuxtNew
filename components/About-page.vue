@@ -7,13 +7,13 @@
       <p>
         {{ aboutArticleProp.formWarning }}
       </p>
-      <form @submit.prevent="" class="contact-form">
+      <form class="contact-form" @submit.prevent="">
         <label for="ContactInfo">Your Email Adress</label>
-        <input type="email" id="contecntInfo" placeholder="your Email" />
+        <input id="contecntInfo" type="email" placeholder="your Email" />
         <label for="TextArea">Your Message</label>
         <textarea
-          name="message"
           id="TextArea"
+          name="message"
           cols="30"
           rows="10"
           placeholder="Please Enter Your Message"
@@ -26,11 +26,11 @@
 
 <script>
 export default {
-  props: ['aboutArticleProp'],
+  props: {
+    aboutArticleProp: { type: Object },
+  },
   methods: {
-    onCall() {
-      console.log('gkoepskgpoKPOGKSPOGKEPOSGKPOESGKPOESKPO')
-    },
+    onCall() {},
   },
 }
 </script>

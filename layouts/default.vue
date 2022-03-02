@@ -3,7 +3,7 @@ vue/multi-word-component-names
 <template>
   <div class="main-nuxt-class">
     <TheHeader />
-    <Nuxt style="height:100%; min-height:100%" id="nuxt-main" />
+    <Nuxt id="nuxt-main" style="height: 100%; min-height: 100%" />
     <TheFooter />
   </div>
 </template>

@@ -10,19 +10,17 @@ import conf from '../conf'
 import HomePage from '~/components/Home-page.vue'
 
 export default Vue.extend({
-  transition:'home',
+  name: 'IndexPage',
   async asyncData({ $content }) {
     const content = await $content(conf.CONTENT).fetch()
     return { content }
   },
   components: { HomePage },
-  name: 'IndexPage',
+  transition: 'home',
 })
 </script>
 
 <style scoped>
-
-
 .home-enter-active,
 .home-leave-active {
   transition: opacity 0.5s;
