@@ -15,7 +15,8 @@ module.exports = {
     "vue/multi-word-component-names": ["error", {
       "ignores": [
         "About",
-        "Products"
+        "Products",
+        "default"
       ]
     }]
   },
