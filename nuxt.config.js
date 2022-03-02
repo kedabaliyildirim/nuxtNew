@@ -3,28 +3,31 @@ export default {
   target: 'server',
   head: {
     title: 'KrstNewNuxt',
-    meta: [{
-        charset: 'utf-8'
+    meta: [
+      {
+        charset: 'utf-8',
       },
       {
         name: 'viewport',
-        content: 'width=device-width, initial-scale=1'
+        content: 'width=device-width, initial-scale=1',
       },
       {
         hid: 'description',
         name: 'description',
-        content: ''
+        content: '',
       },
       {
         name: 'format-detection',
-        content: 'telephone=no'
+        content: 'telephone=no',
       },
     ],
-    link: [{
-      rel: 'icon',
-      type: 'image/x-icon',
-      href: '/favicon.ico'
-    }],
+    link: [
+      {
+        rel: 'icon',
+        type: 'image/x-icon',
+        href: '/favicon.ico',
+      },
+    ],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
@@ -33,14 +36,12 @@ export default {
     // SCSS file in the project
     '@/assets/css/main.scss',
     '@/assets/css/theHeader.scss',
-    '@/assets/css/homePage.scss'
+    '@/assets/css/homePage.scss',
   ],
   serverMiddleware: {
-    '/api': '~/api'
+    '/api': '~/api',
   },
-  image: {
-
-  },
+  image: {},
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [],
 
@@ -53,7 +54,6 @@ export default {
     '@nuxt/typescript-build',
     // https://go.nuxtjs.dev/stylelint
     '@nuxtjs/stylelint-module',
-
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -67,7 +67,6 @@ export default {
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
     '@nuxt/image',
-
   ],
   router: {},
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
