@@ -62,6 +62,6 @@
 <script>
 export default {
   transition: 'home-page',
-  props: { firstArticleProp: { type: Object } },
+  props: { firstArticleProp: { type: Object, default:null} },
 }
 </script>

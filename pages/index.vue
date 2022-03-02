@@ -11,12 +11,12 @@ import HomePage from '~/components/Home-page.vue'
 
 export default Vue.extend({
   name: 'IndexPage',
+  components: { HomePage },
+  transition: 'home',
   async asyncData({ $content }) {
     const content = await $content(conf.CONTENT).fetch()
     return { content }
   },
-  components: { HomePage },
-  transition: 'home',
 })
 </script>
 

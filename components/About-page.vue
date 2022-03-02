@@ -27,7 +27,7 @@
 <script>
 export default {
   props: {
-    aboutArticleProp: { type: Object },
+    aboutArticleProp: { type: Object, default:null },
   },
   methods: {
     onCall() {},

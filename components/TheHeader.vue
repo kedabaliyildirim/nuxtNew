@@ -1,13 +1,13 @@
 <template>
   <div>
-    <b-navbar toggleable="lg" type="light" variant="dark">
+    <b-navbar toggleable="lg" type="dark" variant="dark">
       <NuxtLink id="nuxt-navbar-brand-link" to="/"
         ><nuxt-img class="logo" src="/brandLogo.png"></nuxt-img>
       </NuxtLink>
 
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
-      <b-collapse id="nav-collapse" is-nav>
+      <b-collapse id="nav-collapse" isNav>
         <b-navbar-nav v-for="page in content.pages" :key="page.id">
           <NuxtLink id="nuxt-navbar-link" :to="page.path"
             >{{ page.title }}
