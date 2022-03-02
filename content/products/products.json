@@ -1,0 +1,43 @@
+{
+  "title": "frontend CMS with Nuxt Content",
+  "index": {
+    "title": "PRODUCTS",
+    "stainlesSteelBuckets": {
+      "name": "Stainless Steel Bucketeer Buckets",
+      "description": "Our Stainles Steel Bucketeer Buckets or SSBB's are state of the art buckets made from stainless steeel that will help you carry your burdens with confidence of an unbreakable* bucket that is made from (suprise!) Stainless Steel.",
+      "pricing": "$55 USD",
+      "finePrint": "* We are not in any way responsible for any back issues and injuries that may be caused by heavy buckets."
+    },
+    "plasticBuckets": {
+      "name": "Standard Issue Plastic Bucketeer Buckets",
+      "description": "When life gets overly complicated you can trust in our Standard Issue Plastic Bucketeer Buckets or SIPBB's. We know you care about the environments. We do too, so our plastic buckets are made 100% from recycled materials, that comes with colorfull options that includes fan favorite Navy Blue. With care to the future.",
+      "pricing": "$20 USD"
+    },
+    "decorotiveBuckets": {
+      "name": "Non-standard Issue Plastic Decorated Bucketeer Buckets ",
+      "description": "When you are not satisfied with standard issues and want to let your inner artist fly, we got you covered! After paying a small fee you to can commision a bucket from us. Current plans includes :",
+      "commisionTypes": {
+        "photoBuckets": {
+          "name": "Photo Bucketeer Buckets",
+          "description": "You send us a photo of your loved one / pet / best friend / child etc. We make them in to the buckets. Perfect gag gift that is also not useless.",
+          "pricing": "$65 USD"
+        },
+        "landscapeBuckets": {
+          "name": "Landscape Bucketeer Buckets",
+          "description": "In this commision type you send us a gorgeus (or not YOU decide) landscape we paint them with laser in to our buckets",
+          "pricing": "$85 USD"
+        },
+        "forSaleBuckets": {
+          "name": "For Sale Bucketeer Buckets",
+          "description": "You read it right YOU can earn money via commisions you make to our website RIGHT HERE. So how does this work: This process is a litle diffrent than our other products. First you will be redirected to a page to commision your painting so far so standard, after that our team inspects your art and decides upon a price. that is NOT the money Bucketeer's paying you it is the price of the Bucketeer's Buckets that will be produced, shipped and sold across the World (for now we are working on other planets too). the money you will recieve is based on this price plus royalties. May all of humanatiy use your commissioned buckets",
+          "pricing": "~"
+        }
+      }
+    },
+    "holidayBuckets": {
+      "name": "Bucketeer Holiday special Bucketeer Buckets",
+      "description": "Bucketeer Holiday special Bucketeer Buckets or BHSBB's are the deFacto buckets that are made for holidays. As our world is full of culture we are constantly in search for the holidays we missed and appreciate all and every holiday ideas. With that our selection consists of a huge array of holiday bucket specials for your enjoyment",
+      "pricing": "depends on holiday"
+    }
+  }
+}

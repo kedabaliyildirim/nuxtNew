@@ -1,0 +1,124 @@
+/* HOME PAGE */
+.home-page-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.image {
+  width: 370px;
+  height: 460px;
+  object-fit: contain;
+}
+
+.image-div {
+  width: 50%;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+}
+
+.image-div:hover {
+  cursor: pointer;
+  -webkit-transform: translate(-10px, -10px);
+  transform: rotate(10deg);
+}
+
+.text {
+  width: 50%;
+  margin-right: 10%;
+}
+
+/* First Paragraph */
+.contents {
+  margin: 7%;
+  display: flex;
+  flex-direction: row;
+}
+
+.first-paragraph-title {
+  -webkit-transition: 1s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+.first-paragraph-title:hover {
+  cursor: pointer;
+  -webkit-transform: translate(-10px, -10px);
+  transform: translate(-10px, -10px);
+}
+
+.first-paragraph-first-article,
+.first-paragraph-third-article {
+  margin: 3%;
+  -webkit-transition: 1s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+.first-paragraph-second-article {
+  margin: 4%;
+  -webkit-transition: 1s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+.first-paragraph-first-article:hover,
+.first-paragraph-third-article:hover {
+  cursor: pointer;
+  -webkit-transform: translate(-10px, -10px);
+  transform: translate(-10px, -10px);
+}
+
+.first-paragraph-second-article:hover {
+  cursor: pointer;
+  -webkit-transform: translate(20px, 20px);
+  transform: translate(10px, 10px);
+}
+
+/* SECOND PARAGRAPH */
+.second-paragraph {
+  display: flex;
+  margin: 2%;
+  margin-bottom: 9%;
+}
+
+.second-paragraph-first-image {
+  margin-left: 8%;
+}
+
+.second-paragraph-articles {
+  margin: 2% 7%;
+}
+
+.second-paragraph-title {
+  -webkit-transition: 1s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+.second-paragraph-title:hover {
+  cursor: pointer;
+  -webkit-transform: translate(-10px, -10px);
+  transform: translate(-10px, -10px);
+}
+
+.second-paragraph-first-article,
+.second-paragraph-third-article {
+  margin: 3% 5%;
+  -webkit-transition: 1s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+.secnod-paragraph-second-article {
+  margin: 3% 7%;
+  -webkit-transition: 1s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+.second-paragraph-first-article:hover,
+.second-paragraph-third-article:hover {
+  cursor: pointer;
+  -webkit-transform: translate(-10px, -10px);
+  transform: translate(-10px, -10px);
+}
+
+.secnod-paragraph-second-article:hover {
+  cursor: pointer;
+  -webkit-transform: translate(20px, 20px);
+  transform: translate(10px, 10px);
+}

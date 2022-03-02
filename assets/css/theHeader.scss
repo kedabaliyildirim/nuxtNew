@@ -1,0 +1,65 @@
+@use 'sass:math';
+$divider: 2;
+@keyframes wiggle {
+  @for $i from 0 to 100 {
+    @if $i >0 and $i <=25 {
+      #{$i * 1%} {
+        transform: rotate(#{math.div($i, $divider)}deg);
+      }
+    }
+    @if $i >=25 and $i <=50 {
+      #{$i * 1%} {
+        transform: rotate(#{12.5 - math.div($i - 25, $divider)}deg);
+      }
+    }
+    @if $i >=50 and $i <=75 {
+      #{$i * 1%} {
+        transform: rotate(#{- math.div($i - 50, $divider)}deg);
+      }
+    }
+    @if $i >=75 and $i <= 100 {
+      #{$i * 1%} {
+        transform: rotate(#{-12.5 + math.div($i - 75, $divider)});
+      }
+    }
+  }
+}
+// THEHEADER
+#nuxt-navbar-brand-link {
+  margin-right: 1%;
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  font-size: large;
+}
+
+#nuxt-navbar-brand-link.wiggle {
+  animation: none;
+}
+
+#nuxt-navbar-brand-link:hover {
+  animation: wiggle 1s infinite alternate;
+}
+
+#nuxt-navbar-link {
+  text-decoration: none;
+  color: white;
+  margin-top: 6.9%;
+  padding: 5px;
+  -webkit-transition: background-color 0.5s ease-out;
+  -moz-transition: background-color 0.5s ease-out;
+  -o-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
+}
+
+#nuxt-navbar-link:hover {
+  background-color: #435465;
+  border-radius: 30%;
+}
+
+#nuxt-navbar-dropdown-link {
+  text-decoration: none;
+  margin-left: 0%;
+  color: #457b9d;
+  padding: 0%;
+}

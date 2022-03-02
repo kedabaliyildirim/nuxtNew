@@ -1,0 +1,28 @@
+{
+  "title": "frontend CMS with Nuxt Content",
+  "index": {
+    "title": "Buckets",
+    "content": "Someone index content",
+    "mainArticle": "While struggling through life have you ever imagined, what life would be like if you had quality buckets to use in your daily life. Wonder no more for Bucketeers of Valhalla is here at last ",
+    "article1": "As life gets complicated, we look for things that make us comfortable in life. One of those things is the quality of life given to us by the tools that we use and love.",
+    "article2": "With Bucketters ltd. you have what is essentially a bucket but durable, biodegradable, easy-to-use and good-looking buckets.",
+    "secondParagraphTitle": "Fun With Buckets",
+    "secondParagraphArticleOne": "No one likes doing chores and we at Bucketeers are not disputing that. However with Bucketeers buckets you can at least have SOME fun while cleaning. With cutting edge nano-technology backed buckets that are bio-degredable and therefore enviorment friendly you might just forget the bordem of doing chores.",
+    "secondParagraphArticleTwo": "Bucketeers is on of the global powers in the market for buckets. So what does this means for the end user. This means whereever you are, you as an end user can reach our quality products. Rejoice for the first time ever you can buy our product from everywhere when you need us",
+    "secondParagraphArticleThree": "Enviorment is our most important treasure and everyone should know its worth. We at Bucketeers are proud to anunce our carbon footprint is one of the smallest in the industry of buckets. Our buckets are bio-degredable and our means of producing them uses the most efficent materials and filtering systems. As global warming threatens humanatiy we at Bucketeers are proud of doing our dutiy to planet Earth."
+  },
+  "pages": [
+    {
+      "title": "About",
+      "path": "/About"
+    },
+    {
+      "title": "Products",
+      "path": "/Products"
+    },
+    {
+      "title": "Baz Page",
+      "path": "/baz"
+    }
+  ]
+}
