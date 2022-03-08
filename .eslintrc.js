@@ -18,7 +18,6 @@ module.exports = {
         ignores: ['About', 'Products', 'default'],
       },
     ],
-    'vue/attribute-hyphenation': ['error', 'never', {}],
-    'vue/attribute-hyphenation': ['0', 'never', {}],
+    'vue/attribute-hyphenation': [0, 'never', {}],
   },
 }
