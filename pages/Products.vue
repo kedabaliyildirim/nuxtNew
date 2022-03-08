@@ -8,7 +8,7 @@ export default {
   transition: 'products',
   async asyncData({ $content }) {
     const content = await $content(conf.PRODUCTCONTENT).fetch()
-    return{content}
+    return { content }
   },
 }
 </script>

@@ -5,7 +5,7 @@
       "name": "Stainless Steel Bucketeer Buckets",
       "description": "Our Stainles Steel Bucketeer Buckets or SSBB's are state of the art buckets made from stainless steeel that will help you carry your burdens with confidence of an unbreakable* bucket that is made from (suprise!) Stainless Steel.",
       "pricing": "$55 USD",
-      "imageLink":"../static/steelBucket.jpg",
+      "imageLink": "../static/steelBucket.jpg",
       "finePrint": "* We are not in any way responsible for any back issues and injuries that may be caused by heavy buckets."
     },
     "plasticBuckets": {
