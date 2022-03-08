@@ -13,16 +13,16 @@
   },
   "pages": [
     {
+      "title": "Home",
+      "path": "/"
+    },
+    {
       "title": "About",
       "path": "/About"
     },
     {
       "title": "Products",
       "path": "/Products"
-    },
-    {
-      "title": "Baz Page",
-      "path": "/baz"
     }
   ]
 }

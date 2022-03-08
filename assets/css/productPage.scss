@@ -1,0 +1,37 @@
+.productPageSection {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  padding: 15%;
+}
+.main-div-of-products {
+  display: flex;
+  flex-direction: row;
+}
+#mainProductCard {
+  color: red;
+  background-color: #f8edeb;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  margin: 0% 1%;
+}
+
+.productPageCardText {
+  color: red;
+  font-size: small;
+  margin-bottom: 20%;
+}
+.card-title {
+  font-size: medium;
+}
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.productPageCardButton {
+  position: absolute;
+  bottom: 1%;
+  right: 1%;
+}
